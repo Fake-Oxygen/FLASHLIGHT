@@ -1,0 +1,283 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Custom:18650_Li-Ion B6
+U 1 1 5E5BB6DC
+P 2950 2700
+F 0 "B6" H 2900 2700 50  0000 L CNN
+F 1 "18650_Li-Ion" V 2800 2450 50  0000 L CNN
+F 2 "" H 2950 2700 50  0001 C CNN
+F 3 "" H 2950 2700 50  0001 C CNN
+	1    2950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:18650_Li-Ion B1
+U 1 1 5E5BCC0C
+P 2650 4700
+F 0 "B1" H 2600 4700 50  0000 L CNN
+F 1 "18650_Li-Ion" V 2500 4450 50  0000 L CNN
+F 2 "" H 2650 4700 50  0001 C CNN
+F 3 "" H 2650 4700 50  0001 C CNN
+	1    2650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:18650_Li-Ion B2
+U 1 1 5E5BCF48
+P 2950 4700
+F 0 "B2" H 2900 4700 50  0000 L CNN
+F 1 "18650_Li-Ion" V 2800 4450 50  0000 L CNN
+F 2 "" H 2950 4700 50  0001 C CNN
+F 3 "" H 2950 4700 50  0001 C CNN
+	1    2950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:18650_Li-Ion B3
+U 1 1 5E5BDB32
+P 2950 3700
+F 0 "B3" H 2900 3700 50  0000 L CNN
+F 1 "18650_Li-Ion" V 2800 3450 50  0000 L CNN
+F 2 "" H 2950 3700 50  0001 C CNN
+F 3 "" H 2950 3700 50  0001 C CNN
+	1    2950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:18650_Li-Ion B4
+U 1 1 5E5BDDCD
+P 2650 3700
+F 0 "B4" H 2600 3700 50  0000 L CNN
+F 1 "18650_Li-Ion" V 2500 3450 50  0000 L CNN
+F 2 "" H 2650 3700 50  0001 C CNN
+F 3 "" H 2650 3700 50  0001 C CNN
+	1    2650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:18650_Li-Ion B5
+U 1 1 5E5BDF6F
+P 2650 2700
+F 0 "B5" H 2600 2700 50  0000 L CNN
+F 1 "18650_Li-Ion" V 2500 2450 50  0000 L CNN
+F 2 "" H 2650 2700 50  0001 C CNN
+F 3 "" H 2650 2700 50  0001 C CNN
+	1    2650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4250 2950 4300
+Wire Wire Line
+	2650 4300 2650 4250
+Wire Wire Line
+	2650 4250 2800 4250
+Wire Wire Line
+	2950 5150 2950 5100
+Wire Wire Line
+	2650 5100 2650 5150
+Wire Wire Line
+	2650 5150 2950 5150
+Wire Wire Line
+	2950 4150 2950 4100
+Wire Wire Line
+	2950 3250 2950 3300
+Wire Wire Line
+	2650 3300 2650 3250
+Wire Wire Line
+	2650 3250 2800 3250
+Wire Wire Line
+	2650 4100 2650 4150
+Wire Wire Line
+	2650 4150 2800 4150
+Wire Wire Line
+	2800 4150 2800 4200
+Connection ~ 2800 4150
+Wire Wire Line
+	2800 4150 2950 4150
+Connection ~ 2800 4250
+Wire Wire Line
+	2800 4250 2950 4250
+Wire Wire Line
+	2650 3100 2650 3150
+Wire Wire Line
+	2650 3150 2800 3150
+Wire Wire Line
+	2950 3150 2950 3100
+Wire Wire Line
+	2800 3150 2800 3200
+Connection ~ 2800 3150
+Wire Wire Line
+	2800 3150 2950 3150
+Connection ~ 2800 3250
+Wire Wire Line
+	2800 3250 2950 3250
+Wire Wire Line
+	2650 2300 2650 2250
+Wire Wire Line
+	2650 2250 2950 2250
+Wire Wire Line
+	2950 2250 2950 2300
+$Comp
+L Custom:BMS_3s U1
+U 1 1 5E5CCED3
+P 3800 3700
+F 0 "U1" H 3850 3700 50  0000 C CNN
+F 1 "BMS_3s" H 3850 3950 50  0000 C CNN
+F 2 "" H 2900 4100 50  0001 C CNN
+F 3 "" H 2900 4100 50  0001 C CNN
+	1    3800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5150 3400 5150
+Wire Wire Line
+	3400 5150 3400 3850
+Wire Wire Line
+	3400 3850 3500 3850
+Connection ~ 2950 5150
+Wire Wire Line
+	3500 3750 3300 3750
+Wire Wire Line
+	3300 3750 3300 4200
+Wire Wire Line
+	3300 4200 2800 4200
+Connection ~ 2800 4200
+Wire Wire Line
+	2800 4200 2800 4250
+Wire Wire Line
+	3500 3650 3300 3650
+Wire Wire Line
+	3300 3650 3300 3200
+Wire Wire Line
+	3300 3200 2800 3200
+Connection ~ 2800 3200
+Wire Wire Line
+	2800 3200 2800 3250
+Wire Wire Line
+	3500 3550 3400 3550
+Wire Wire Line
+	3400 3550 3400 2250
+Wire Wire Line
+	3400 2250 2950 2250
+Connection ~ 2950 2250
+$Comp
+L Custom:DC-DC_Converter U2
+U 1 1 5E5D19A9
+P 5400 3650
+F 0 "U2" H 5400 3450 50  0000 C CNN
+F 1 "DC-DC_Converter" H 5400 3800 50  0000 C CNN
+F 2 "" H 4950 4000 50  0001 C CNN
+F 3 "" H 4950 4000 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3650 4200 3650
+Wire Wire Line
+	4200 3650 4200 3600
+$Comp
+L Custom:Voltmeter_3Pin MES1
+U 1 1 5E5D4815
+P 5800 3200
+F 0 "MES1" V 6065 3200 50  0000 C CNN
+F 1 "Voltmeter_3Pin" V 5974 3200 50  0000 C CNN
+F 2 "" H 5600 3500 50  0001 C CNN
+F 3 "" H 5600 3500 50  0001 C CNN
+	1    5800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5E5DB9D0
+P 4750 3600
+F 0 "SW1" H 4750 3835 50  0000 C CNN
+F 1 "SW_SPST" H 4750 3744 50  0000 C CNN
+F 2 "" H 4750 3600 50  0001 C CNN
+F 3 "~" H 4750 3600 50  0001 C CNN
+	1    4750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3750 4250 3750
+Wire Wire Line
+	5800 3400 5800 3600
+Wire Wire Line
+	5800 3600 5700 3600
+Wire Wire Line
+	5600 3200 5050 3200
+Wire Wire Line
+	5050 3200 5050 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5E5E4E55
+P 6000 3300
+F 0 "#PWR?" H 6000 3050 50  0001 C CNN
+F 1 "GND" H 6005 3127 50  0000 C CNN
+F 2 "" H 6000 3300 50  0001 C CNN
+F 3 "" H 6000 3300 50  0001 C CNN
+	1    6000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3200 6000 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5E5E5C78
+P 4450 3850
+F 0 "#PWR?" H 4450 3600 50  0001 C CNN
+F 1 "GND" H 4455 3677 50  0000 C CNN
+F 2 "" H 4450 3850 50  0001 C CNN
+F 3 "" H 4450 3850 50  0001 C CNN
+	1    4450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3750 4450 3850
+Connection ~ 4450 3750
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 5E5E89E9
+P 4700 2550
+F 0 "J1" H 4757 2875 50  0000 C CNN
+F 1 "Barrel_Jack" H 4757 2784 50  0000 C CNN
+F 2 "" H 4750 2510 50  0001 C CNN
+F 3 "~" H 4750 2510 50  0001 C CNN
+	1    4700 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 3600 5050 3600
+Wire Wire Line
+	5050 3600 5100 3600
+Connection ~ 5050 3600
+Wire Wire Line
+	4450 3750 5100 3750
+Wire Wire Line
+	4200 3600 4400 3600
+Wire Wire Line
+	4400 2650 4400 3600
+Connection ~ 4400 3600
+Wire Wire Line
+	4400 3600 4550 3600
+Wire Wire Line
+	4400 2450 4250 2450
+Wire Wire Line
+	4250 2450 4250 3750
+Connection ~ 4250 3750
+Wire Wire Line
+	4250 3750 4450 3750
+$EndSCHEMATC
